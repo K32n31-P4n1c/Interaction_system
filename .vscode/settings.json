@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"D:/Unreal Engine Random projects/Interaction_system/.vscode": true,
+		"D:/Unreal Engine Random projects/Interaction_system/Content": true,
+		"D:/Unreal Engine Random projects/Interaction_system/DerivedDataCache": true,
+		"D:/Unreal Engine Random projects/Interaction_system/Intermediate": true,
+		"D:/Unreal Engine Random projects/Interaction_system/Saved": true
+	}
+}

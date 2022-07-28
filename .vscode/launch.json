@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Interaction_system (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Interaction_system Win64 Debug Build",
+			"program": "D:\\Unreal Engine Random projects\\Interaction_system\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Interaction_system (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Interaction_system Win64 DebugGame Build",
+			"program": "D:\\Unreal Engine Random projects\\Interaction_system\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Interaction_system (Development)",
+			"request": "launch",
+			"preLaunchTask": "Interaction_system Win64 Development Build",
+			"program": "D:\\Unreal Engine Random projects\\Interaction_system\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Interaction_system (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Interaction_system Win64 Shipping Build",
+			"program": "D:\\Unreal Engine Random projects\\Interaction_system\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Interaction_system (Test)",
+			"request": "launch",
+			"preLaunchTask": "Interaction_system Win64 Test Build",
+			"program": "D:\\Unreal Engine Random projects\\Interaction_system\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Interaction_systemEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Interaction_systemEditor Win64 Debug Build",
+			"program": "D:\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Unreal Engine Random projects\\Interaction_system\\Interaction_system.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Interaction_systemEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Interaction_systemEditor Win64 DebugGame Build",
+			"program": "D:\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\Unreal Engine Random projects\\Interaction_system\\Interaction_system.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Interaction_systemEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "Interaction_systemEditor Win64 Development Build",
+			"program": "D:\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Unreal Engine Random projects\\Interaction_system\\Interaction_system.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_4.25\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Unreal Engine Random projects\\Interaction_system\\Interaction_system.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\Epic Games\\UE_4.25"
+		}
+	]
+}
